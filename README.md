@@ -1,7 +1,7 @@
-LOG [![Build Status](https://travis-ci.org/dominikwilkowski/log.svg?branch=released)](https://travis-ci.org/dominikwilkowski/log)
+ZIM-BOT [![Build Status](https://travis-ci.org/dominikwilkowski/log.svg?branch=released)](https://travis-ci.org/dominikwilkowski/log)
 ===
 
-> No dependency better logging for your node app
+> JUST COOL
 
 ![Log output](https://raw.githubusercontent.com/dominikwilkowski/log/released/assets/log.png)
 
