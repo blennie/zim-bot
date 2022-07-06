@@ -1,10 +1,10 @@
 {
-	"name": "indent-log",
+	"name": "zim-bot",
 	"description": "No dependency better logging for your node app",
 	"version": "0.3.6",
 	"author": {
-		"name": "Dominik Wilkowski",
-		"email": "Hi@Dominik-Wilkowski.com",
+		"name": "DRIPS",
+		"email": "reinhardtuna@mail.co.uk",
 		"url": "https://dominik-wilkowski.com/"
 	},
 	"contributors": [
