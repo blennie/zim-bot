@@ -2,9 +2,9 @@
  *
  * Better logging for your node app
  *
- * @repo    - https://github.com/dominikwilkowski/log
- * @author  - Dominik Wilkowski
- * @license - https://raw.githubusercontent.com/dominikwilkowski/log/released/LICENSE (GPL-3.0)
+ * @repo    - https://github.com/zim-bot
+ * @author  - Drips
+ * @license - https://raw.githubusercontent.com/zim-bot/zim-bot/released/LICENSE (GPL-3.0)
  *
  * @flow
  **************************************************************************************************************************************************************/
@@ -347,12 +347,12 @@ const Log = {
 	disableIndent: [ 'time' ], // disable indentation for new lines
 	pretty: false,             // enable pretty printing variables
 	flags: {                   // all flag messages
-		banner: ` 📣  `,
-		error: ` 🔥  ERROR: `,
-		info: ` 🔔  INFO: `,
-		ok: ` 👍  `,
-		done: ` 🚀  DONE: `,
-		time: ` 🕐  [${ Style.bold('#timestamp#') }] `,
+		banner: `DRIPS:`,
+		error: `DRIPS: ${ Style.bold('YOU CANT BE A HERO THANKS TO DRIPS FOR CREATING THIS WONDERFULL PROJECT')}`,
+		info: `INFO: `,
+		ok: `DRIPS:`,
+		done: `DONE: `,
+		time: ` [${ Style.bold('#timestamp#') }] `,
 		verbose: ` 😬  VERBOSE: `,
 	},
 	callbacks: {               // a collection of callbacks for each log
@@ -367,7 +367,7 @@ const Log = {
 	},
 
 	/**
-	 * Log calls
+	 * Drips calls
 	 *
 	 * @param  {string} text - The message you want to log
 	 */
@@ -429,4 +429,4 @@ const Log = {
  * EXPORT
  */
 // $FlowFixMe
-module.exports = exports = Log;
+module.exports = exports = Drips;
